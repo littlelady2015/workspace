@@ -1,0 +1,294 @@
+﻿map area {
+    outline: none;
+    cursor: pointer;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nzsd_banna {
+    position: relative;
+    display: block;
+}
+
+.img_jp {
+    background-color: #3A18A3;
+}
+
+.img_jp_f1 {
+    background: url(http://i0.ulecdn.com/i/event/2017/1218/nzsd_n1.png) #3A18A3 top center no-repeat;
+    height: 433px;
+}
+
+.img_jp_f2 {
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+    .img_jp_f2 img {
+        margin-left: -960px;
+    }
+
+
+.img_jp_f3 {
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+    .img_jp_f3 img {
+        margin-left: -546px;
+    }
+
+.img_jp_f4 {
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+    .img_jp_f4 img {
+        margin-left: -546px;
+    }
+
+.nzsd_scz_box {
+    background: url(http://i0.ulecdn.com/i/event/2017/1218/nzsd_11.jpg);
+}
+
+.nzsd_scz_tl {
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+    .nzsd_scz_tl img {
+        margin-left: -546px;
+    }
+
+.btm {
+    padding-top: 100px;
+}
+
+.nzsd_scz {
+    position: relative;
+    left: 50%;
+    top: 0;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.nzsd_scz_ul {
+    display: block;
+    margin-left: -490px;
+    width: 960px;
+}
+
+.nzsd_scz_li {
+    border: 4px solid #EEEEEE;
+    width: 232px;
+    height: 340px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+    .nzsd_scz_li:link {
+        border: 4px solid #EEEEEE;
+        width: 232px;
+        height: 340px;
+        background-repeat: no-repeat;
+        float: left;
+        display: block;
+    }
+
+    .nzsd_scz_li:hover {
+        border: 4px solid #6E0AC5;
+        width: 232px;
+        height: 340px;
+        background-repeat: no-repeat;
+        float: left;
+        display: block;
+    }
+
+        .nzsd_scz_li:hover .btns {
+            visibility: visible;
+        }
+
+.nzsd_cp_img {
+    width: 232px;
+    height: 235px;
+}
+
+.nzsd_cp_title {
+    width: 232px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.nzsd_gz_box {
+    position: relative;
+    left: 50%;
+    top: 0px;
+}
+
+.nzsd_gz {
+    font-family: "Microsoft YaHei";
+    display: block;
+    margin-left: -490px;
+    width: 900px;
+    font-size: 18px;
+    line-height: 38px;
+    background-color: #ECECEC;
+    padding: 27px;
+    color: #8259a6;
+}
+
+.ln_p {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    display: block;
+}
+
+
+
+/*购买按钮*/
+
+.btns {
+    position: relative;
+    margin-top: -58px;
+    top: -2px;
+    visibility: hidden;
+    display: none;
+}
+
+.btn {
+    padding: 4px;
+    font-family: "Microsoft YaHei";
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 40px;
+    line-height: 42px;
+    border-radius: 5px;
+    background-color: #6E0AC5;
+    color: #fff;
+    margin: 6px;
+}
+
+/*最大价格*/
+.nzsd_cp_maxPrice {
+    font-family: "Microsoft YaHei";
+    text-decoration: line-through;
+    font-size: 15px;
+    color: #666;
+    padding: 6px;
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+    .nzsd_cp_maxPrice font {
+        font-family: "Microsoft YaHei";
+        text-decoration: line-through;
+        font-size: 16px;
+        color: #666;
+    }
+
+/*最小价格*/
+.nzsd_cp_minPrice {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #9204D3;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+    .nzsd_cp_minPrice font {
+        color: #9204D3;
+        font-family: "Arial";
+        font-size: 30px;
+        padding: 6px;
+    }
+
+
+
+/*清除浮动方法*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+    zoom: 1;
+    display: block;
+}
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+}
+
+/*摸态框*/
+
+.reveal-modal-bg {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0,.8);
+    z-index: 100000;
+    top: 0;
+    left: 0;
+}
+/*抽奖摸态框*/
+.reveal_modal {
+    display: none;
+    position: absolute;
+    z-index: 100001;
+   
+}
+
+.hbimg {
+    width: 433px;
+    height: 587px;
+}
+
+.lqimg {
+    width: 430px;
+    height: 587px;
+}
+
+.hb_dp {
+    width: 433px;
+    text-align: center;
+    position: relative;
+    top: -290px;
+    margin-left: 0px;
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: microsoft yahei;
+    padding-top: 10px;
+    font-size: 38px;
+    display: block;
+}
+.hb_dp font {
+    margin-right: 4px;
+    font-size: 48px;
+ }
+   
+
+
+
